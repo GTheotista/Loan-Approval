@@ -1,7 +1,10 @@
 # Loan Approval Classification
-**Tools: Python**
-**Visualizations: Matplotlib, Seaborn**
-**Dataset: Loan Approval Classification Data**
+
+**Tools:** Python
+**Visualizations:** Matplotlib, Seaborn
+**Dataset:**  [Loan Approval Classification Data](https://www.kaggle.com/datasets/taweilo/loan-approval-classification-data/data)
+
+---
 
 ## I. Business Problem Understanding
 Loan defaults pose a major risk to financial institutions, directly affecting profitability and overall portfolio stability. Early identification of high-risk applicants enables better credit decisions, minimizing potential losses and ensuring sustainable lending practices.
@@ -20,6 +23,8 @@ Loan defaults pose a major risk to financial institutions, directly affecting pr
 - Enables proactive risk management and better credit policy design.
 - Supports balanced loan portfolio growth while minimizing bad debt.
 
+---
+
 ## II. Data Understanding & Preprocessing
 ### Dataset Source
 Loan Approval Classification Data
@@ -35,6 +40,8 @@ Loan Approval Classification Data
      - Used RobustScaler on skewed numerical features (loan amount, interest rate, loan-to-income ratio, credit history length).
 - Encoding: Applied One-Hot Encoding to categorical variables.
 - Pipeline: Combined preprocessing steps into a pipeline to avoid data leakage and ensure reproducibility.
+
+---
 
 ## III. Modeling
 ### Algorithms Tested
@@ -63,6 +70,8 @@ LightGBM Classifier (Tuned)
 - Loan Intent (Education, Venture, Home Improvement)
 - Applicant’s Income Category
 
+---
+
 ## IV. Conclusion and Recommendations
 ### Conclusion
 - Tuned LightGBM provided the best trade-off between recall and ROC-AUC, making it effective in identifying high-risk applicants.
@@ -83,6 +92,8 @@ LightGBM Classifier (Tuned)
 
 **Model Maintenance:**
 - Retrain the model periodically to adapt to new borrower trends and economic changes.
+
+---
 
 ## V. Next Steps
 - Deployment: Build an API or dashboard to integrate the model into the loan decision-making system.

@@ -1,7 +1,9 @@
 # Loan Approval Classification
 
 **Tools:** Python
+
 **Visualizations:** Matplotlib, Seaborn
+
 **Dataset:**  [Loan Approval Classification Data](https://www.kaggle.com/datasets/taweilo/loan-approval-classification-data/data)
 
 ---
